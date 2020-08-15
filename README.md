@@ -2,7 +2,7 @@
 **paper Title: The Brokers in a Dependency Ecosystem: An Empirical Study on using Package Managers**
 
 
-**Authors:Syful Islam , Raula Gaikovina Kula, Christoph Treude, Bodin Chinthanet, Takashi Ishio, and Kenichi Matsumoto **
+Authors:Syful Islam, Raula Gaikovina Kula, Christoph Treude, Bodin Chinthanet, Takashi Ishio, and Kenichi Matsumoto 
 
 
 **Abstract:** A package manager (PM) is crucial to most technology stacks, acting as a broker to ensure that a verified dependency package is correctly installed, configured, or removed from an application.
