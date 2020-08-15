@@ -4,10 +4,11 @@
 ```
 📁 Replication_package/
 ├─ 📁 Dataset
+|
 ├─ 📁 Results
-  ├─ 📁 RQ1
-  ├─ 📁 RQ2
-  ├─ 📁 RQ3_4_5_6 
+|  ├─ 📁 RQ1
+|  ├─ 📁 RQ2
+|  ├─ 📁 RQ3_4_5_6 
 |
 ├─ 📁 Scripts
   ├─ 📁 Data_preparation_scripts
