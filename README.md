@@ -1,5 +1,5 @@
 # Package-manager-project
-**paper Title: The Brokers in a Dependency Ecosystem: An Empirical Study on using Package Managers**
+**Paper Title: The Brokers in a Dependency Ecosystem: An Empirical Study on using Package Managers**
 
 
 **Authors:** Syful Islam, Raula Gaikovina Kula, Christoph Treude, Bodin Chinthanet, Takashi Ishio, and Kenichi Matsumoto 
