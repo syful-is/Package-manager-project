@@ -24,7 +24,6 @@ We divide our empirical study into three parts with six research questions:
 
         RQ1: How do PM-related posts compare to the rest of SO posts?
         
-        
         RQ2: What kind of topics are present in PM-related posts?
         
         
@@ -33,7 +32,6 @@ We divide our empirical study into three parts with six research questions:
 
         RQ3: What kinds of PM questions do developers ask?
         
-        
         RQ4: What are the underlying causes of a PM-related post?
         
         
@@ -41,7 +39,6 @@ We divide our empirical study into three parts with six research questions:
 
 
         RQ5: What type of PM-related posts get resolved?
-        
         
         RQ6: What information is needed to resolve a PM-related post?
         
