@@ -47,15 +47,15 @@ We divide our empirical study into three parts with six research questions:
 **Replication package Structure**
 ```
 📁 Replication_package/
-├─ 📁 Dataset
+├─ 📁 Dataset/
 |
-├─ 📁 Scripts
+├─ 📁 Scripts/
 |  ├─ 📁 Data_preparation_scripts
 |  ├─ 📁 RQ1_scripts
 |  ├─ 📁 RQ2_scripts
 |  ├─ 📁 RQ3_4_5_6_scripts
 |
-├─ 📁 Results
+├─ 📁 Results/
 |  ├─ 📁 RQ1
 |  ├─ 📁 RQ2
 |  ├─ 📁 RQ3_4_5_6 
