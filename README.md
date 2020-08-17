@@ -16,7 +16,7 @@ The choice of PM affects their user experience, as questions are likely to arise
 We find that PM-related posts are not likely to get resolved, with only 40\% to 50\% having an accepted answer.
 Our work further lays out a road-map to investigate the trade-off between design features to understand what an ideal PM would look like.
 
-**Study design:**
+# Study design:
 We divide our empirical study into three parts with six research questions:
 
 **1. Characterizing PM-related posts and topics:**
