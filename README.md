@@ -21,7 +21,6 @@ We divide our empirical study into three parts with six research questions:
 
 **1. Characterizing PM-related posts and topics:**
 
-
         RQ1: How do PM-related posts compare to the rest of SO posts?
         
         RQ2: What kind of topics are present in PM-related posts?
@@ -29,14 +28,12 @@ We divide our empirical study into three parts with six research questions:
         
 **2. Analyzing PM-related posts in terms of their question and its underlying cause:**
 
-
         RQ3: What kinds of PM questions do developers ask?
         
         RQ4: What are the underlying causes of a PM-related post?
         
         
 **3. Analyzing the information needed to resolve a PM-related post:**
-
 
         RQ5: What type of PM-related posts get resolved?
         
@@ -46,7 +43,7 @@ We divide our empirical study into three parts with six research questions:
 
 # Replication package Structure:
 ```
-📁 Replication_package/
+📁 Package-manager-project/
 ├─ 📁 Dataset/
 |
 ├─ 📁 Scripts/
