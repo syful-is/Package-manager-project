@@ -73,13 +73,11 @@ We divide our empirical study into three parts with six research questions:
   ```git clone https://......```
   3. Open `Jupyter Notebook`.
   4. Copy any code and Set your working directory using 
-  ```
-  import os
-
+```
+import os
 #Please specify your dataset directory. 
 os.chdir("..../Dataset/")
-
-  ```
+```
   
   4. For example, Run the **kruskal_and_cohen_1c.py** for testing the statistical significance of the `reputation` .
 
