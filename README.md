@@ -66,6 +66,10 @@ We divide our empirical study into three parts with six research questions:
 |
 ─
 ```
+### Contents:
+  1. Dataset- is a folder that contains the dataset for `Package-manager project`.
+  2. Scripts- is a folder that contains the all the codes. 
+  3. Results- is a folder that contains the results obtained from dataset.
 
 # How to run:
   1. Download the dataset from: [link](....)
@@ -80,7 +84,7 @@ We divide our empirical study into three parts with six research questions:
                 os.chdir("..../Dataset/")
                 ```
   
-  4. For example, Run the **kruskal_and_cohen_1c.py** for testing the statistical significance of the `reputation` .
+  4. For example, Run the **kruskal_and_cohen_1c.py** for testing the statistical significance of the `reputation`.
 
 
 # Authors:
