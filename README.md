@@ -50,15 +50,19 @@ We divide our empirical study into three parts with six research questions:
 ├─ 📁 Dataset/
 |
 ├─ 📁 Scripts/
-|  ├─ 📁 Data_preparation_scripts
-|  ├─ 📁 RQ1_scripts
-|  ├─ 📁 RQ2_scripts
-|  ├─ 📁 RQ3_4_5_6_scripts
+|  ├─ 📁 Data_preparation_scripts/
+|  ├─ 📁 RQ1_scripts/
+|  ├─ 📁 RQ2_scripts/
+|  ├─ 📁 RQ3_4_5_6_scripts/
 |
 ├─ 📁 Results/
-|  ├─ 📁 RQ1
-|  ├─ 📁 RQ2
-|  ├─ 📁 RQ3_4_5_6 
+|  ├─ 📁 RQ1/
+|  ├─ 📁 RQ2/
+|  |  ├─ 📁 Figures/
+|  |  ├─ 📁 Topic_popularity_and_difficulty_Results/
+|  ├─ 📁 RQ3_4_5_6/ 
+|     ├─ 📁 Manual_analysis_Results/
+|     ├─ 📁 Association_rules/
 |
 ─
 
