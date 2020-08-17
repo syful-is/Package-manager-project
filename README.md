@@ -1,4 +1,4 @@
-# Package-manager-project
+# Package-manager-project:
 ### Paper Title: The Brokers in a Dependency Ecosystem: An Empirical Study on using Package Managers
 
 
@@ -44,7 +44,7 @@ We divide our empirical study into three parts with six research questions:
         
 
 
-# Replication package Structure
+# Replication package Structure:
 ```
 📁 Replication_package/
 ├─ 📁 Dataset/
@@ -66,7 +66,23 @@ We divide our empirical study into three parts with six research questions:
 |
 ─
 
-```
+# How to run:
+  1. Download the dataset from: [link](....)
+  2. Extract the files.
+  3. Clone this repository into your userhome folder in the system
+  ```git clone https://......```
+  3. Open `Jupyter Notebook`.
+  4. Copy any code and Set your working directory using 
+  ```
+  import os
+
+#Please specify your dataset directory. 
+os.chdir("..../Dataset/")
+
+  ```
+  
+  4. For example, Run the **kruskal_and_cohen_1c.py** for testing the statistical significance of the `reputation` .
+
 
 # Authors:
   
