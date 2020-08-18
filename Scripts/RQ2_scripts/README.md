@@ -30,7 +30,7 @@ This script is used to map the question posts into environment support
 This script is used to map the question posts into dependency  tree
 [7_mapped_by_dependency.py](RQ2_scripts/7_mapped_by_dependency.py)
 
-Script for preparing input of dendrogram visualizations
+### Script for preparing input of dendrogram visualizations:
 
 [8_mapped_by_major_category.py](RQ2_scripts/8_mapped_by_major_category.py)
 
