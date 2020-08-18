@@ -1,100 +1,58 @@
 # Package-manager-project:
 
+### Step1: Prepare `All question dataset with meta information`....
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3988740.svg)](https://doi.org/10.5281/zenodo.3988740)
+Sub-step1:  Prepare dataset with all meta information
+script:[RQ3_all_metadata.py](F:\1_NAIST_Research_SE\SE_code\RQ3_all_metadata.py)
+Output: [RQ2_lda_15_topics_with_all_metadata_06_04_2020.csv](F:/1_NAIST_Research_SE/SE_meeting/PM_Stackoverflow/RQ2_answer/LDA_15_topics/RQ2_lda_15_topics_with_all_metadata_06_04_2020.csv)
 
-
-### Paper Title: The Brokers in a Dependency Ecosystem: An Empirical Study on using Package Managers
-
-
-**Authors:** Syful Islam, Raula Gaikovina Kula, Christoph Treude, Bodin Chinthanet, Takashi Ishio, and Kenichi Matsumoto 
-
-
-**Abstract:** A package manager (PM) is crucial to most technology stacks, acting as a broker to ensure that a verified dependency package is correctly installed, configured, or removed from an application.
-Diversity in technology stacks has led to dozens of PMs with various features.
-While recent studies have shown that developers struggle to migrate their dependencies, the common assumption is that PMs broker dependencies without any issues. 
-In this paper, we would like to explore issues faced by developers when using PMs through an empirical study of content on Stack Overflow (SO).
-Through a quantitative analysis of 470,806  posts related to 16 PMs, we first determine the importance of PM-related posts and extract topics contained in these posts.
-We then carry out a qualitative analysis of 1,131 posts related to the Maven, npm, and NuGet dependency ecosystems to analyze questions, underlying causes and their resolutions.
-Our results confirm that developers tend to struggle with PMs.
-The choice of PM affects their user experience, as questions are likely to arise from lack of instructions and error messages.
-We find that PM-related posts are not likely to get resolved, with only 40\% to 50\% having an accepted answer.
-Our work further lays out a road-map to investigate the trade-off between design features to understand what an ideal PM would look like.
-
-# Study design:
-We divide our empirical study into three parts with six research questions:
-
-**1. Characterizing PM-related posts and topics:**
-
-        RQ1: How do PM-related posts compare to the rest of SO posts?
-        
-        RQ2: What kind of topics are present in PM-related posts?
-        
-        
-**2. Analyzing PM-related posts in terms of their question and its underlying cause:**
-
-        RQ3: What kinds of PM questions do developers ask?
-        
-        RQ4: What are the underlying causes of a PM-related post?
-        
-        
-**3. Analyzing the information needed to resolve a PM-related post:**
-
-        RQ5: What type of PM-related posts get resolved?
-        
-        RQ6: What information is needed to resolve a PM-related post?
-        
+Sub-step2:  Seperate samples for three package manager (`maven`, `npm`, `Nuget`)
+Script: [Seperate_Dataset_for_three_PM.py](RQ3_scripts/Seperate_Dataset_for_three_PM.py)
+Output1: [PM_Maven_all_questions.csv](RQ3/PM_Maven_all_questions.csv)
+Output2: [PM_npm_all_questions.csv](RQ3/PM_npm_all_questions.csv)
+Output3: [PM_nuget_all_questions.csv](RQ3/PM_nuget_all_questions.csv)
 
 
-# Replication package Structure:
-```
-📁 Package-manager-project/
-├─ 📁 Dataset/
-|
-├─ 📁 Scripts/
-|  ├─ 📁 Data_preparation_scripts/
-|  ├─ 📁 RQ1_scripts/
-|  ├─ 📁 RQ2_scripts/
-|  ├─ 📁 RQ3_4_5_6_scripts/
-|
-├─ 📁 Results/
-|  ├─ 📁 RQ1/
-|  ├─ 📁 RQ2/
-|  |  ├─ 📁 Figures/
-|  |  ├─ 📁 Topic_popularity_and_difficulty_Results/
-|  ├─ 📁 RQ3_4_5_6/ 
-|     ├─ 📁 Manual_analysis_Results/
-|     ├─ 📁 Association_rules/
-|
-─
-```
-### Contents:
-  1. Dataset- is a folder that contains the dataset for `Package-manager project`.
-  2. Scripts- is a folder that contains the all the codes. 
-  3. Results- is a folder that contains the results obtained from dataset.
-
-# How to run:
-  1. Download the dataset from: [link](....)
-  2. Extract the files.
-  3. Clone this repository into your userhome folder in the system
-  ```git clone https://......```
-  3. Open `Jupyter Notebook`.
-  4. Copy any code and Set your working directory using 
-                ```
-                import os
-                #Please specify your dataset directory. 
-                os.chdir("..../Dataset/")
-                ```
-  
-  4. For example, Run the **kruskal_and_cohen_1c.py** for testing the statistical significance of the `reputation`.
+Sub-step3: Prepare `Samples` for all three cases  (`maven`, `npm`, `Nuget`)
 
 
-# Authors:
-  
-  1. [Syful Islam](https://syful-is.github.io/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
-  2. [Raula Gaikovina Kula](https://raux.github.io/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
-  3. [Christoph Treude](http://ctreude.ca/), University of Adelaide, Adelaide, Australia.
-  4. [Bodin Chinthanet](https://bchinthanet.com/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
-  5. [Takashi Ishio](https://takashi-ishio.github.io/), Nara Institute of Science and Technology (NAIST), Nara, Japan.
-  6. [Kenichi Matsumoto](http://isw3.naist.jp/Contents/Research/cs-05-en.html), Nara Institute of Science and Technology (NAIST), Nara, Japan.
+Survey sample calculator: 
+[sscalc.htm](https://www.surveysystem.com/sscalc.htm)
+For `maven` sample size= 382
+For `npm` sample size= 379
+For `Nuget` sample size= 370
+
+
+Script: to prepare samples
+[prepare_samples.py](F:\1_NAIST_Research_SE\SE_code\prepare_samples.py)
+Sample Dataset: 
+output1: [PM_Maven_all_sample.csv](RQ3/PM_Maven_all_sample.csv)
+output2: [PM_npm_all_sample.csv](RQ3/PM_npm_all_sample.csv)
+output3: [PM_nuget_all_sample.csv](RQ3/PM_nuget_all_sample.csv)
+
+
+Sub-step4: Here we performed manual analysis for RQ3,4,5, & 6
+
+Results: You can find the offline version of the result in:
+[PM_undelyning_cause_question_coding.xlsx](Replication_package\Results\RQ3_4_5_6\Results\PM_undelyning_cause_question_coding.xlsx)
+[PM_Attribute_coding.xlsx](Replication_package\Results\RQ3_4_5_6\Results\PM_Attribute_coding.xlsx)
+
+
+Result: Link of google sheet for manual analysis [Online]:
+[Underlyning_cause_and_question_coding](https://docs.google.com/spreadsheets/d/1Dtc4i5Ex88EPjFCBrTP8efKr5RC1yeW6LwgT0YPMGBw/edit?usp=sharing)
+[Attribute coding](https://docs.google.com/spreadsheets/d/1iWf_rnPx8KdisGgjVJuajTQgGtRUjfXaVtb7DTYSs34/edit?usp=sharing)
+
+step2:  `RQ6` (Qualitative)
+
+Script: [Association_rule_mining.py](RQ3_scrips/Association_rule_mining.py)
+
+Results: Association rule mining results:
+Directory: Replication_package\Results\RQ3_4_5_6\Results
+
+Manual analysis of image link
+Result: [Image_link_analysis.xlsx](Replication_package\Results\RQ3_4_5_6\Results\Image_link_analysis.xlsx)
+
+Google sheet results [Online]
+[Image link analysis](https://docs.google.com/spreadsheets/d/1Zff8Z8Ujsd5W_XFYWFQV80fPrU_u_PCiWC29CPSO4Ws/edit?usp=sharing)
+
 
