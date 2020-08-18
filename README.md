@@ -69,9 +69,9 @@ We divide our empirical study into three parts with six research questions:
 ─
 ```
 ### Contents:
-  1. Dataset- is a folder that contains the dataset for `Package-manager project`.
-  2. Scripts- is a folder that contains the all the codes. 
-  3. Results- is a folder that contains the results obtained from dataset.
+  1. [Dataset](https://github.com/syful-is/Package-manager-project/tree/master/Dataset)- is a folder that contains the dataset for `Package-manager project`.
+  2. [Scripts](https://github.com/syful-is/Package-manager-project/tree/master/Scripts)- is a folder that contains the all the codes. 
+  3. [Results](https://github.com/syful-is/Package-manager-project/tree/master/Results)- is a folder that contains the results obtained from dataset.
 
 # How to run:
   1. Download the dataset from: [link](....)
