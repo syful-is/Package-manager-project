@@ -1,0 +1,6 @@
+,antecedents,consequents,support1,confidence,Support
+8,"frozenset({'Q_i.stack.imgur.com', 'Q_docs.microsoft.com'})",frozenset({'A_i.stack.imgur.com'}),0.011353712,0.764705882,13
+10,"frozenset({'Q_github.com', 'Q_www.nuget.org'})",frozenset({'A_github.com'}),0.009606987,0.5,11
+11,"frozenset({'Q_docs.microsoft.com', 'Q_stackoverflow.com'})",frozenset({'A_i.stack.imgur.com'}),0.0069869,0.5,8
+13,"frozenset({'Q_i.stack.imgur.com', 'Q_docs.nuget.org'})",frozenset({'A_i.stack.imgur.com'}),0.005240175,0.6,6
+16,"frozenset({'Q_i.stack.imgur.com', 'Q_docs.microsoft.com', 'Q_stackoverflow.com'})",frozenset({'A_i.stack.imgur.com'}),0.005240175,0.857142857,6

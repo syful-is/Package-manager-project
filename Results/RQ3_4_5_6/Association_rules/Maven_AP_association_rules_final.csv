@@ -1,0 +1,7 @@
+,antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,Support
+1,frozenset({'Q_docs.gradle.org'}),frozenset({'A_docs.gradle.org'}),0.002722147,0.004472098,0.001361073,0.5,111.8043478,0.0013489,1.991055804,7
+12,"frozenset({'Q_code.google.com', 'Q_github.com'})",frozenset({'A_github.com'}),0.002333269,0.155162357,0.001166634,0.5,3.222431078,0.000804599,1.689675287,6
+13,"frozenset({'Q_code.google.com', 'Q_stackoverflow.com'})",frozenset({'A_github.com'}),0.003499903,0.155162357,0.001749951,0.5,3.222431078,0.001206898,1.689675287,9
+5,frozenset({'Q_www.oracle.com'}),frozenset({'A_stackoverflow.com'}),0.002527708,0.155162357,0.001361073,0.538461538,3.470310391,0.000968868,1.830481561,7
+20,"frozenset({'Q_maven.apache.org', 'Q_i.stack.imgur.com'})",frozenset({'A_maven.apache.org'}),0.004860976,0.226327046,0.002722147,0.56,2.474295533,0.001621976,1.758347622,14
+8,frozenset({'Q_www.jfrog.com'}),frozenset({'A_www.jfrog.com'}),0.002333269,0.006610927,0.001361073,0.583333333,88.2377451,0.001345648,2.384133774,7

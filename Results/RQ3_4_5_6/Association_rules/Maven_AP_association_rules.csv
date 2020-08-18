@@ -1,0 +1,8 @@
+,antecedents,consequents,support,confidence,Support
+5,frozenset({'Q_maven.apache.org'}),frozenset({'A_maven.apache.org'}),0.058137274,0.496677741,300
+1,"frozenset({'Q_maven.apache.org', 'Q_i.stack.imgur.com'})",frozenset({'A_maven.apache.org'}),0.002722147,0.56,14
+13,"frozenset({'Q_code.google.com', 'Q_stackoverflow.com'})",frozenset({'A_github.com'}),0.001749951,0.5,9
+14,frozenset({'Q_docs.gradle.org'}),frozenset({'A_docs.gradle.org'}),0.001361073,0.5,7
+6,frozenset({'Q_www.oracle.com'}),frozenset({'A_stackoverflow.com'}),0.001361073,0.538461538,7
+21,frozenset({'Q_www.jfrog.com'}),frozenset({'A_www.jfrog.com'}),0.001361073,0.583333333,7
+9,"frozenset({'Q_code.google.com', 'Q_github.com'})",frozenset({'A_github.com'}),0.001166634,0.5,6

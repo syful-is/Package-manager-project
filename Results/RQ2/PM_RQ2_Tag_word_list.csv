@@ -1,0 +1,32 @@
+weblink,Language,PM,Enviroment,Dependency,Filter_list,PM_post_count,total_post_SO,TRT,TST
+na,Others,PM,Others,Others,package-managers,806,806,100,100
+https://www.npmjs.com/,JavaScript,npm,Node.js,Nested,npmignore,1,19,5.263158,0.124069
+https://www.npmjs.com/,JavaScript,npm,Node.js,Nested,pnpm,1,22,4.545455,0.124069
+https://www.npmjs.com/,JavaScript,npm,Node.js,Nested,npm-shrinkwrap,1,55,1.818182,0.124069
+https://golang.org/doc/,Golang,Go,Gc,Flat,godeps,1,64,1.5625,0.124069
+,JavaScript,Bower,Node.js,Flat,bower,39,3157,1.23535,4.83871
+https://packagist.org/,Php,Packagist,Zend Engine,Flat,packagist,3,244,1.229508,0.372208
+,JavaScript,Bower,Node.js,Flat,bower-install,4,347,1.152738,0.496278
+https://docs.microsoft.com/en-us/nuget/,Multi,Nuget,.NET,Flat,nuget-package,22,2644,0.832073,2.729529
+https://stackoverflow.com/questions/tagged/conda,Multi,Conda,Multi,Flat,conda,23,3253,0.70704,2.853598
+https://golang.org/doc/,Golang,Go,Gc,Flat,go-modules,1,165,0.606061,0.124069
+https://docs.conda.io/en/latest/miniconda.html,Multi,Conda,Multi,Flat,miniconda,2,396,0.505051,0.248139
+https://docs.microsoft.com/en-us/nuget/,Multi,Nuget,.NET,Flat,nuget,44,8759,0.50234,5.459057
+https://www.npmjs.com/,JavaScript,npm,Node.js,Nested,npm-scripts,2,526,0.380228,0.248139
+https://cran.r-project.org/,R,CRAN,R,Flat,cran,2,556,0.359712,0.248139
+https://www.npmjs.com/,JavaScript,npm,Node.js,Nested,npm,89,29100,0.305842,11.04218
+https://pypi.org/,Python,PyPI,Python,Flat,pypi,3,1020,0.294118,0.372208
+https://github.com/dart-lang/pub,Dart,Pub,Dart VM,Flat,dart-pub,1,466,0.214592,0.124069
+https://www.meteor.com/,JavaScript,Meteor,Node.js,Nested,meteorite,1,477,0.209644,0.124069
+https://stackoverflow.com/questions/tagged/anaconda,Multi,Conda,Multi,Flat,anaconda,18,9105,0.197694,2.233251
+https://docs.microsoft.com/en-us/nuget/,Multi,Nuget,.NET,Flat,nuget-package-restore,1,627,0.15949,0.124069
+https://www.npmjs.com/,JavaScript,npm,Node.js,Nested,npm-install,4,2941,0.136008,0.496278
+https://julialang.org/,Julia,Julia,Julia,Flat,julia,6,6126,0.097943,0.744417
+https://www.cpan.org/,Perl,CPAN,Perl,Flat,cpan,1,1129,0.088574,0.124069
+https://guide.elm-lang.org/,Elm,Elm,Elm,Flat,elm,1,1584,0.063131,0.124069
+https://rubygems.org/,Ruby,RubyGems,Ruby MRI,Flat,rubygems,5,9611,0.052024,0.620347
+https://golang.org/doc/,Golang,Go,Gc,Flat,go,12,42068,0.028525,1.488834
+https://puppet.com/docs/puppet/latest/types/package.html,Ruby,Puppet,Ruby MRI,Flat,puppet,1,3669,0.027255,0.124069
+https://maven.apache.org/,Java,Maven,JVM,Flat,maven-2,1,5568,0.01796,0.124069
+https://maven.apache.org/,Java,Maven,JVM,Flat,maven,7,70555,0.009921,0.868486
+https://www.meteor.com/,JavaScript,Meteor,Node.js,Nested,meteor,2,28380,0.007047,0.248139

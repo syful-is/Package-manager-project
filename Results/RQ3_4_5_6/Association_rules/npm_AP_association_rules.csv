@@ -1,0 +1,16 @@
+,antecedents,consequents,support,confidence,Support
+1,frozenset({'Q_github.com'}),frozenset({'A_github.com'}),0.175121951,0.517291066,359
+2,"frozenset({'Q_www.npmjs.com', 'Q_github.com'})",frozenset({'A_github.com'}),0.016585366,0.586206897,34
+3,"frozenset({'Q_i.stack.imgur.com', 'Q_github.com'})",frozenset({'A_github.com'}),0.013658537,0.528301887,28
+4,frozenset({'Q_gist.github.com'}),frozenset({'A_github.com'}),0.007317073,0.517241379,15
+5,frozenset({'Q_npmjs.org'}),frozenset({'A_github.com'}),0.006829268,0.538461538,14
+6,frozenset({'Q_pastebin.com'}),frozenset({'A_github.com'}),0.006829268,0.583333333,14
+7,frozenset({'Q_www.npmjs.org'}),frozenset({'A_github.com'}),0.005853659,0.6,12
+8,frozenset({'Q_medium.com'}),frozenset({'A_github.com'}),0.004878049,0.666666667,10
+9,frozenset({'Q_yarnpkg.com'}),frozenset({'A_github.com'}),0.003414634,0.5,7
+10,"frozenset({'Q_nodejs.org', 'Q_github.com'})",frozenset({'A_github.com'}),0.002926829,0.75,6
+11,frozenset({'Q_www.typescriptlang.org'}),frozenset({'A_github.com'}),0.002439024,0.625,5
+27,frozenset({'Q_yeoman.io'}),frozenset({'A_github.com'}),0.002439024,0.625,5
+28,"frozenset({'Q_registry.npmjs.org', 'Q_github.com'})",frozenset({'A_github.com'}),0.002439024,0.625,5
+29,frozenset({'Q_ionicframework.com'}),frozenset({'A_github.com'}),0.002439024,0.714285714,5
+30,frozenset({'Q_travis-ci.org'}),frozenset({'A_github.com'}),0.002439024,0.833333333,5
