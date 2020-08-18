@@ -6,6 +6,8 @@
 ### Step1: Perform topic modeling using LDA:
 Script: [RQ2_LDA_sychra.ipynb](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/RQ2_scripts/RQ2_LDA_sychra.ipynb)
 
+### Step2: 
+
 
 # Authors:
   
