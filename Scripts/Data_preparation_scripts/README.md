@@ -3,6 +3,11 @@
 
 ## Indetify `Package-Managers` related Tags and extract `relevant tags` 
 
+### Initially, we seprate all the question and answer post from SO:
+Script:[1_All_question_post_SO.py](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/Data_preparation_scripts/1_All_question_post_SO.py)
+
+Script:[2_All_answer_post_SO.py](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/Data_preparation_scripts/2_All_answer_post_SO.py)
+
 ### Step1: `Initial` post extraction using `Package-Managers` tagged post
 Script: [3_PM_related_initial_posts.py](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/Data_preparation_scripts/3_PM_related_initial_posts.py)
 
@@ -11,6 +16,7 @@ Script: [3_PM_related_initial_posts.py](https://github.com/syful-is/Package-mana
 Script: [4.1_tag_count.py](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/Data_preparation_scripts/4.1_tag_count.py)
 
 Afterward collect the tag frequency for all post of SO using the same script. 
+
 Script:[4.1_tag_count.py](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/Data_preparation_scripts/4.2_tag_count.py)
 
 
