@@ -31,10 +31,15 @@ This script is used to map the question posts into dependency  tree
 [7_mapped_by_dependency.py](RQ2_scripts/7_mapped_by_dependency.py)
 
 Script for preparing input of dendrogram visualizations
+
 [8_mapped_by_major_category.py](RQ2_scripts/8_mapped_by_major_category.py)
+
 [9_dependency_mapped_by_major.py](RQ2_scripts/9_dependency_mapped_by_major.py)
+
 [10_mapped_by_major_category.py](RQ2_scripts/10_mapped_by_major_category.py)
+
 [11_language_mapped_by_major.py](RQ2_scripts/11_language_mapped_by_major.py)
+
 [12_PM_mapped_major_Cat.py](RQ2_scripts/12_PM_mapped_major_Cat.py)
 
 
