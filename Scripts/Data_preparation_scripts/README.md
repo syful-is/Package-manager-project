@@ -32,7 +32,10 @@ Script: [7_PM_related_Answer_post_extract.py](https://github.com/syful-is/Packag
 
 
 ### Step5: `Number of PM posts` summary
+
 Question Post: 22270 (47.32%)
+
 Answer Post: 248036 (52.68%)
+
 Total: 470806 (100%)
 
