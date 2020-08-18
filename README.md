@@ -88,7 +88,8 @@ We divide our empirical study into three parts with six research questions:
                 os.chdir("..../Dataset/")
                 ```
   
-  4. For example, Run the **[kruskal_and_cohen_1c.ipynb](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/RQ1_scripts/kruskal_and_cohen_1c.ipynb)** for testing the statistical significance of the `reputation` of developers who belong to PM posts.
+  4. Example-1: Run the **[kruskal_and_cohen_1c.ipynb](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/RQ1_scripts/kruskal_and_cohen_1c.ipynb)** for testing the statistical significance of the `reputation` of developers who belong to PM posts (Part of RQ1).
+  5. Example-2: Run the **[RQ2_LDA_sychra.ipynb](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/RQ2_scripts/RQ2_LDA_sychra.ipynb)**  for LDA topic modeling (Part of RQ2)
 
 
 # Authors:
