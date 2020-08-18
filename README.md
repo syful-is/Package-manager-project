@@ -77,7 +77,7 @@ We divide our empirical study into three parts with six research questions:
   1. Download the dataset from: [link](....)
   2. Extract the files.
   3. Clone this repository into your userhome folder in the system
-  ```git clone https://......```
+  ```https://github.com/syful-is/Package-manager-project.git```
   3. Open `Jupyter Notebook`.
   4. Copy any code and Set your working directory using 
                 ```
@@ -86,7 +86,7 @@ We divide our empirical study into three parts with six research questions:
                 os.chdir("..../Dataset/")
                 ```
   
-  4. For example, Run the **kruskal_and_cohen_1c.py** for testing the statistical significance of the `reputation`.
+  4. For example, Run the **[kruskal_and_cohen_1c.py](https://github.com/syful-is/Package-manager-project/blob/master/Scripts/RQ1_scripts/kruskal_and_cohen_1c.py)** for testing the statistical significance of the `reputation` of developers who belong to PM posts.
 
 
 # Authors:
