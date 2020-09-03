@@ -78,7 +78,7 @@ We divide our empirical study into three parts with six research questions:
   2. Extract the files.
   3. Clone this repository into your userhome folder in the system
   ```https://github.com/syful-is/Package-manager-project.git```
-  3. Open `Jupyter Notebook`.
+  3. Open `Jupyter Notebook` or `Python Spyder`.
   4. Copy any code and Set your working directory using 
                 
                 ```
